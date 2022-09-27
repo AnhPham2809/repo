@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"notation","l":"MyQueue"},{"p":"notation","l":"MyStack"},{"p":"notation","l":"Notation"}];updateSearchResults();
