@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>272</x>
+      <y>88</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;
+Town
+--
+compareTo()
+equals()
+String getName()
+hashCode()
+toString()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>272</x>
+      <y>280</y>
+      <w>104</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;
+java.lang.Object
+--
+getClass()
+notify()
+notifyAll()
+wait
+wait
+wait</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>304</x>
+      <y>232</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>488</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;
+Road
+--
+Road: Constructor
+Road: Constructor
+--
+compareTo()
+contains
+equals()
+getDestination()
+getName()
+getSource()
+getWeight()
+toString()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>424</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>40</y>
+      <w>168</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Data Structure / Class &gt;
+Graph
+--
+getEdge()
+addEdge()
+addVertex()
+containtsEdge
+containsVertex
+edgeSet()
+edgeof()
+removeEdge()
+removeVortex()
+vertexSet()
+shortestPath()
+dijkstraShortestPath()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>296</y>
+      <w>168</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Interface &gt;
+GraphInterface
+--
+getEdge()
+addEdge()
+addVertex()
+containtsEdge
+containsVertex
+edgeSet()
+edgeof()
+removeEdge()
+removeVortex()
+vertexSet()
+shortestPath()
+dijkstraShortestPath()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>568</x>
+      <y>232</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>768</x>
+      <y>360</y>
+      <w>168</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Interface&gt;
+TownGraphManagerInterface
+--
+TownGraphManager(): Constructor
+--
+addRoad()
+getRoad()
+addtown()
+containsTown()
+containsRoadConnection()
+allRoads()
+deleteRoadConnection()
+deleteTown()
+allTowns()
+getPath()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>776</x>
+      <y>56</y>
+      <w>168</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Data Manager / Class &gt;
+TownGraphManager
+--
+TownGraphManager(): Constructor
+--
+addRoad()
+getRoad()
+addtown()
+containsTown()
+containsRoadConnection()
+allRoads()
+deleteRoadConnection()
+deleteTown()
+allTowns()
+getPath()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>248</y>
+      <w>24</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
